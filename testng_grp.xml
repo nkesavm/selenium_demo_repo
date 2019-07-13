@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CRMPRO Test Automation Suite">
+<test name="CRMPRO Login Page test">
+<groups>
+<run>
+<exclude name="test1" />
+<include name="test2" />
+</run>
+</groups>
+<classes>
+<class name="seleniumtest.Test11" />
+</classes>
+</test>
+</suite>

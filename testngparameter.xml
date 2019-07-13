@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CRMPRO Test Automation Suite">
+	<test name="CRMPRO Login Page chrome test">
+		
+		<parameter name="browserName" value="chrome" />
+		<parameter name="username" value="test123" />
+		<parameter name="password" value="test@123" />
+		<classes>
+			<class name="seleniumtest.ParameterTest" />
+		</classes>
+	</test>
+	
+</suite>
